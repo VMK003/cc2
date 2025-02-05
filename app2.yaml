@@ -1,5 +1,5 @@
 runtime: python312
-entrypoint: gunicorn -b :$PORT test:app
+entrypoint: gunicorn -b :$PORT test2:app2
 
 handlers:
   - url: /.*
