@@ -1,7 +1,0 @@
-runtime: python312
-entrypoint: gunicorn -b :$PORT test2:app2
-
-handlers:
-  - url: /.*
-    script: auto
-    secure: always
